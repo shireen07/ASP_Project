@@ -1,0 +1,154 @@
+
+*{margin: 0px; padding: 0px;}
+
+body{
+    font-size: 120%;
+    background: url("../images/6.jpg") no-repeat fixed center;
+    /*For Chrome and IE*/
+    zoom: 75%;
+	/*Only for Firefox*/
+	-moz-transform: scale(0.998); 
+}
+
+.header{
+    width: 23%;
+    margin: 50px auto 0px;
+    color: white;
+    background: #5f9ea0;
+    text-align: center;
+    border: 1px solid #B0C4DE;
+    border-bottom: none;
+    border-radius: 10px 10px 0px 0px;
+    padding: 20px;
+    font-size: 16px;
+    font-weight: bolder;
+    margin-right: 7%;
+    font-family:'Snowburst One',cursive; 
+}
+
+.headerHomePage{
+    width: 15%;
+    margin: auto;
+    color: white;
+    background: #5f9ea0;
+    text-align: center;
+    border: 1px solid #b0c4de;
+    border-bottom: none;
+    border-radius: 10px 10px 0px 0px;
+    padding: 3px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-right: 1%;
+    margin-top: 4%;
+}
+
+
+form, .content{
+    width: 23%;
+    margin: 0px auto;
+    padding: 20px;
+    border: 1px solid #b0c4de;
+    background: url("http://www.printawallpaper.com/upload/designs/white_and_grey_triangles_detail.jpg");
+    border-radius: 0px 0px 10px 10px;
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 7%;
+}
+
+.contentHomePage{
+    width: 9%;
+    margin: 0px auto;
+    padding: 1% 0px 0px 10px;
+    /*border: 1px solid #b0c4de;*/
+    background: #F8F8F8;
+    border-radius: 0px 0px 10px 10px;
+    font-size: 14px;
+    font-weight: bold;
+    margin-right: 1%;
+    line-height: 8px;
+}
+
+/*login message - welcome*/
+.loginWelcome{
+    width: 40%;
+    margin: 0px auto;
+    border: 0px solid #b0c4de;
+    background: b0c4de;/*#F8F8F8;*/
+    border-radius: 25px;
+    font-size: 18px;
+    font-weight: bold;
+    align-content: center;
+    margin-top: 5%;
+    padding: 0px;
+}
+
+/*align the message to the center of welcome div*/
+.welcometext{
+    text-align: center;
+}
+
+.input-group{
+    margin: 10px 0px 10px 0px;
+}
+
+.input-group label {
+    display: block;
+    text-align: left;
+    font-weight: bold;
+    margin-left: 17px;
+ }
+ 
+ .input-group input {
+     height: 37px;
+     width: 90%;
+     padding: 5px 10px;
+     font-size: 12px;
+     border-radius: 5px;
+     border: 1px solid gray;
+     margin-left: 15px;
+ }
+ 
+ .btn {
+    padding: 10px;
+    font-size: 17px;
+    color: white;
+    background: #5f9ea0;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: 37%;
+ }
+
+ .error {
+    width: 92%;
+    margin: 0px auto;
+    padding: 10px;
+    border: 1px solid #a94442;
+    color: #a94442;
+    background: #f2dede;
+    border-radius: 5px;
+    text-align: left;
+}
+
+.success {
+   color: #3c763d;
+   background: #dff0d8;
+   border: 1px solid #3c763d;
+   margin-bottom: 20px;
+}
+
+#registerMsg{
+    font-weight: bolder;
+    margin: 17px 0px 5px 22px;  /*top-right-bottom-left*/
+    font-family:'Snowburst One',cursive; 
+}
+
+/*logoCSS - logo with the link to go to the Landing Page*/
+#logoCSS{
+    font-family:'Snowburst One',cursive; 
+    font-size: 25px;
+    color:tomato;
+    text-decoration: none;
+    margin-left:10px;
+
+}

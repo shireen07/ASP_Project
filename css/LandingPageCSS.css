@@ -1,0 +1,436 @@
+/*CSS For Landing Page*/
+.carousel-item, body{margin: 0px;
+	min-height : 50%;
+	min-width : 100%;
+	background-size:100%;
+  /*background-repeat:no-repeat;*/
+  background: url("http://www.printawallpaper.com/upload/designs/white_and_grey_triangles_detail.jpg"); /*#F8F8FF*/
+	/*overflow-y: hidden;*/ /*commented as we need the Y-axis scroll bar*/
+  /*overflow-x: hidden;*/
+  
+	/*Automatic Zoom page to siz: For IE, opera, safari and chrome.*/
+	zoom: 69%; 
+	/*Only for Firefox*/
+    -moz-transform: scale(0.998);
+}
+
+/*********** Bootstrap Mega-menu DropDown for Landing PAge***************/
+.top-bar{background-color:black;
+		 min-height:40px;
+		 padding-top:5px;
+		 padding-bottom: 0px;
+}
+.top-bar .nav-text {
+    color: #00BCD4;
+    display: block;
+	margin-top: 5px;
+	font-size: 20px;
+}
+.top-bar .social{
+   color:#FFF;
+   display:inline-block;
+   padding:5px;
+   text-decoration: none;}
+
+.top-bar .tools{
+     padding:0px;
+     list-style-type:none;
+    }
+
+.top-bar .tools li{
+  list-style-type: none;
+  display:inline-block;
+}
+
+.top-bar .tools li a {
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    padding-left: 15px;
+    padding-top: 5px;
+}
+
+.navbar-brand {
+    /* float: left; */
+    height: 50px;
+    padding: 3px 15px;
+    font-size: 18px;
+    line-height: 20px;
+    position: absolute;
+    z-index: 11;
+    margin: 0 auto;
+    right: 42%;
+}
+
+
+.navbar-inverse {
+    background-color: #009688;
+    border-color: #080808;
+}
+
+.navbar {
+    position: relative;
+    min-height: 50px;
+    margin-bottom: 0px;
+    border: 0px solid #000;;
+    border-radius:0px;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: #fff;
+}
+.nav > li > a {
+    position: relative;
+    display: block;
+    padding: 15px 11px;}
+
+.form-control{
+    border-color:#fff;
+    border-radius:0px;
+    background-color:transparent;
+}
+
+.btn-default-1 {
+    color: #fff;
+    background-color: transparent;
+    border-color: #fff;
+    border-radius: 0px;
+}
+
+/*.cart-heart a{display:inline-block;color:#fff;font-size:20px;padding:5px;}*/
+
+
+/*//////////////////CROUSELE START///////////////////////////*/
+
+.carousel-caption {
+    position: absolute;
+    right: 15%;
+    bottom: 35px;
+    width: 60%;
+    left: 15%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: left;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, .6);
+}
+
+@media screen and (min-width:768px){
+    .carousel-caption h3{font-size: 35px;} 
+    .carousel-caption p{font-size: 32px;} 
+    .carousel-caption{padding-bottom:160px;}
+}
+
+/*//////////////////CROUSELE START///////////////////////////*/
+
+
+/*/////////////FOOTER START///////////////////*/
+.footer {
+    padding: 50px 0px 20px 0px;
+    background-color: #090c14;
+    color: #878c94;
+    
+}
+.footer .title{
+	text-align: left;
+	color:#fff;
+	font-size:25px;
+}
+.footer .social-icon{
+	padding:0px;
+	margin:0px;
+}
+.footer .social-icon a{
+	display:inline-block;
+	color:#fff;
+	font-size:25px;
+	padding:5px;
+}
+.footer .acount-icon a{
+	display:block;
+	color:#fff;
+	font-size:18px;
+	padding:5px;
+	text-decoration:none;
+}
+.footer .acount-icon .fa{
+	margin-right:15px;
+}
+.footer .category a {
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    padding: 5px 10px;
+    margin: 1px;
+    border-radius:4px;
+    margin-top: 6px;
+    background-color:black;
+    border: solid 1px #fff;
+}
+.footer .payment{
+	margin:0px;
+	padding:0px;
+	list-style-type:none
+}
+.footer .payment li{
+	list-style-type:none
+}
+.footer .payment li a {
+    text-decoration: none;
+    display: inline-block;
+    color: #fff;
+    float:left;
+    font-size: 25px;
+    padding: 5px 5px;
+}
+
+/*/////////////FOOTER END///////////////////*/
+
+/************* MULTI-LEVEL MEGA MENU - START ***************/
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
+body {
+  font-family: 'Open Sans', 'sans-serif';
+}
+
+h1,
+.h1 {
+  font-size: 36px;
+  text-align: center;
+  font-size: 5em;
+  color: #404041;
+}
+
+.navbar-nav>li>.dropdown-menu {
+  margin-top: 20px;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  margin-left: 10%;
+}
+
+
+.navbar-default .navbar-nav>li>a {
+  width: 200px;
+  font-weight: bold;
+}
+.mega-dropdown {
+  position: static !important;
+  width: 100%;
+ 
+}
+
+.mega-dropdown-menu {
+  padding: 10px 0px;
+  width: 80%;
+  box-shadow: none;
+  -webkit-box-shadow: none;  
+}
+
+.mega-dropdown-menu:before {
+  content: "";
+  border-bottom: 15px solid #fff;
+  border-right: 15px solid transparent;
+  border-left: 15px solid transparent;
+  position: absolute;
+  top: -15px;
+  left: 285px;
+  z-index:20;
+}
+
+.mega-dropdown-menu:after {
+  content: "";
+  border-bottom: 17px solid #ccc;
+  border-right: 19px solid transparent;
+  border-left: 19px solid transparent;
+  position: absolute;
+  top: -17px;
+  left: 283px;
+  z-index: 15;
+}
+
+.mega-dropdown-menu > li > ul {
+  padding: 2;
+  margin: 0;
+ 
+}
+
+.mega-dropdown-menu > li > ul > li {
+  list-style: none;
+}
+
+.mega-dropdown-menu > li > ul > li > a {
+  display: block;
+  padding: 3px 0px;
+  clear: both;
+  font-weight: normal;
+  line-height: 1.428571429;
+  color: #999;
+  white-space: normal;
+}
+
+.mega-dropdown-menu > li ul > li > a:hover,
+.mega-dropdown-menu > li ul > li > a:focus {
+  text-decoration: none;
+  color: #444;
+  background-color: #f5f5f5;
+}
+
+.mega-dropdown-menu .dropdown-header {
+  color: #428bca;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.mega-dropdown-menu form {
+  margin: 3px 20px;
+}
+
+.mega-dropdown-menu .form-group {
+  margin-bottom: 3px;
+}
+
+.dropdown-header {font-family:'Snowburst One',cursive; 
+                  font-weight: bolder; 
+                  font-size: 14px;
+}
+/************* MULTI-LEVEL MEGA MENU - End ***************/
+
+
+/********** Product Squares On Landing Page - 3d Images - Start ************/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+*:before, *:after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family:'Snowburst One',cursive;
+  text-align: center;
+  margin: 0 auto;
+}
+body a, body a:visited {
+  color: #555;
+  text-decoration: none;
+}
+body a:hover {
+  color: #444;
+}
+
+article figure::after, article figure .image, article figure .lighting, article .item-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+article .item-wrapper, article .item-content {
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+}
+
+article .item-wrapper, article figure, article .item-content {
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+}
+
+article {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  width: calc(33.33% - 4%);
+  height: 24vw;
+  margin: 1.8%;
+  -webkit-perspective: 1600px;
+          perspective: 1600px;
+  cursor: pointer;
+}
+article .item-wrapper {
+  width: 100%;
+  height: 100%;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
+}
+article .item-wrapper::before {
+  content: '';
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  width: 90%;
+  height: 90%;
+  -webkit-transition: all .2s ease-in;
+  transition: all .2s ease-in;
+  box-shadow: 0 8px 38px rgba(0, 0, 0, 0.86);
+}
+article .item-wrapper:hover::before {
+  box-shadow: 0 14px 64px rgba(0, 0, 0, 0.92);
+}
+article .item-wrapper.enter.ease, article .item-wrapper.leave {
+  -webkit-transition: all .1s ease-in;
+  transition: all .1s ease-in;
+}
+article figure {
+  width: 100%;
+  height: 100%;
+}
+article figure::after {
+  content: '';
+  background-color: rgba(0, 0, 0, 0.06);
+}
+article figure .image {
+  background-position: center;
+  background-size: cover;
+}
+article figure .lighting {
+  background: -webkit-linear-gradient(315deg, rgba(255, 255, 255, 0.24) 0%, rgba(255, 255, 255, 0) 100%);
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.24) 0%, rgba(255, 255, 255, 0) 100%);
+}
+article .item-content {
+  pointer-events: none;
+  padding: 20% 20px 20px;
+  color: #fff;
+  text-shadow: 0 3px 10px rgba(0, 0, 0, 0.76);
+}
+article .item-content h1 {
+  margin-bottom: 5%;
+  -webkit-transform: translateZ(100px);
+          transform: translateZ(100px);
+}
+article .item-content p {
+  font-size: 13px;
+  margin-bottom: 5%;
+  -webkit-transform: translateZ(50px);
+          transform: translateZ(50px);
+}
+article .item-content .author {
+  -webkit-transform: translateZ(70px);
+          transform: translateZ(70px);
+}
+
+@media (max-width: 860px) {
+  article {
+    width: calc(50vw - 3.9vw);
+    height: 38vw;
+  }
+}
+@media (max-width: 667px) {
+  article {
+    width: calc(100vw - 3.9vw);
+    height: 60vw;
+  }
+}
+
+#productH1{ font-family:'Snowburst One',cursive;
+            text-align: center;
+            font-weight: bolder;
+            }
+
+#productPara{font-size: 20px; color:yellow;}
+
+/********** Product Squares On Landing Page - 3d Images - End ************/
+

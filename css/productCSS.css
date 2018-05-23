@@ -1,0 +1,88 @@
+
+
+
+/************************** Promo Image CSS - START *******************************/
+.parallax{
+  padding: 0;
+   position: relative;
+   margin-top: 0.2%;
+   overflow:hidden; /*wont create a scrollbar if hidden*/
+   min-height: 450px; /* Set a specific height */
+   background-image: url(../images/BEWorthy.png);  /* The image used */
+
+   /* Create the parallax scrolling effect */
+   background-repeat: no-repeat;   
+   background-position: center;
+   background-attachment: fixed; /*allows the page to scroll past the image*/
+   background-size: cover; /*makes the image cover 100% horizontally*/
+}
+
+/* Container has all the products and the left and right filters from product pages*/
+#dressContainer{
+  line-height: 0.7;
+  margin-bottom: 10px;
+} 
+
+/*Product Image Sqare - common for all Products*/
+#product_Img_Square{
+  width: 220px;
+  border-radius: 25px;
+  margin: 5px 0px 5px 10px;
+}
+
+/*CSS for the PRoduct name or title - common for all products*/
+#product_title{
+  font-size: 20px;
+  color:teal;
+  line-height: 1;
+  word-wrap: break-word;
+}
+
+/*CSS for the prices */
+#price_text{
+  white-space: pre;
+}
+
+
+/*Product Info button - common for all products*/
+#product_info_btn{
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/*Product details Modal - Image*/ /*Adjust the image in the details container*/
+#product_details_img{
+  width:70%;
+  border-radius: 25px;
+  margin:35px 0px 0px 25px;
+}
+
+/*Product details Modal - Info*/
+#product_details_info{
+  font-family:'Snowburst One',cursive; 
+  font-weight: bolder; 
+  font-size: 20px;
+  color:tomato;
+  text-decoration: underline;
+  top:0;
+}
+
+/*Problem Solved- Modal was moving as per the scoll on the page on which the button was situated*/
+body.modal-open {
+  /*block scroll for mobile; // causes underlying page to jump to top; // prevents scrolling on all screens*/
+  overflow: hidden;
+  position: fixed;
+}
+
+/*Scrollable in the modal if modal becomes long*/
+.modal-body {
+  max-height: calc(100vh - 210px);
+  overflow-y: auto;
+}
+
+body.viewport-lg {
+  /*block scroll for desktop; // will not jump to top; // will not prevent scroll on mobile*/
+  position: absolute;
+}
+
+/******************************* Promo Image CSS - END ************************************/

@@ -1,0 +1,498 @@
+/*CSS For Dresses Page*/
+
+body{
+    margin: 0px;
+    padding: 0;
+    background: url("http://www.printawallpaper.com/upload/designs/white_and_grey_triangles_detail.jpg");
+    overflow-x: hidden;
+  
+      /*Automatic Zoom page to siz: For IE, opera, safari and chrome.*/
+      zoom: 69%; 
+      /*Only for Firefox*/
+   -moz-transform: scale(0.98);
+  }
+  
+  /*********** Bootstrap Mega-menu DropDown for Landing PAge***************/
+  .top-bar{
+       background-color:black;
+           min-height:40px;
+           padding-top:5px;
+       padding-bottom: 0px;
+       overflow: hidden;
+  }
+  .top-bar .nav-text {
+      color: #00BCD4;
+      display: block;
+      margin-top: 5px;
+      font-size: 20px;
+  }
+  .top-bar .social{color:#FFF;display:inline-block;padding:5px;text-decoration: none;}
+  
+  .top-bar .tools{margin:0px;padding:0px;list-style-type:none;}
+  .top-bar .tools li{list-style-type: none;display:inline-block;}
+  .top-bar .tools li a {
+      display: block;
+      text-decoration: none;
+      color: #fff;
+      padding-left: 15px;
+      padding-top: 5px;
+  }
+  
+  /*Cartbugs Shoppe TITLE*/
+  .navbar-brand {
+      height: 50px;
+      padding: 3px 15px;
+      font-size: 18px;
+      line-height: 20px;
+      position: absolute;
+      z-index: 11;
+      margin: 0 auto;
+      right: 38%;
+  }
+  
+  
+  .navbar-inverse {
+      background-color: #009688;
+      border-color: #080808;
+  }
+  
+  .navbar {
+      position: relative;
+      min-height: 50px;
+      margin-bottom: 0px;
+      border: 0px solid #000;;
+      border-radius:0px;
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  
+  .navbar-inverse .navbar-nav > li > a {
+      color: #fff;
+  }
+  .nav > li > a {
+      position: relative;
+      display: block;
+      padding: 15px 11px;}
+  
+  .form-control{
+      border-color:#fff;
+      border-radius:0px;
+      background-color:transparent;
+  }
+  
+  .btn-default-1 {
+      color: #fff;
+      background-color: transparent;
+      border-color: #fff;
+      border-radius: 0px;
+  }
+  
+  
+  /*///////////// FOOTER START ///////////////////*/
+  .footer {
+      padding: 50px 0px 20px 0px;
+      background-color: #090c14;
+      color: #878c94;
+      width: 100%;
+  }
+  .footer .title{
+      text-align: left;
+      color:#fff;
+      font-size:25px;
+  }
+
+  .footer .social-icon a{
+      display:inline-block;
+      color:#fff;
+      font-size:25px;
+      padding:5px;
+  }
+  .footer .acount-icon a{
+      display:block;
+      color:#fff;
+      font-size:18px;
+      padding:5px;
+      text-decoration:none;
+  }
+  .footer .acount-icon .fa{
+      margin-right:15px;
+  }
+  .footer .category a {
+      text-decoration: none;
+      color: #fff;
+      display: inline-block;
+      padding: 5px 10px;
+      margin: 1px;
+      border-radius:4px;
+      margin-top: 6px;
+      background-color:black;
+      border: solid 1px #fff;
+  }
+  .footer .payment{
+      list-style-type:none
+  }
+  .footer .payment li{
+      list-style-type:none
+  }
+  .footer .payment li a {
+      text-decoration: none;
+     
+      color: #fff;
+      float:left;
+      font-size: 25px;
+      padding: 5px 5px;
+  }
+  
+  /*///////////// FOOTER END ///////////////////*/
+  
+  
+  /************* MULTI-LEVEL MEGA MENU - START ***************/
+  h1,
+  .h1 {
+    font-size: 36px;
+    text-align: center;
+    font-size: 5em;
+    color: #404041;
+  }
+  
+  .navbar-nav>li>.dropdown-menu {
+    /*margin-top: 20px;*/
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    margin-left:15%; /*dropdown menu items container*/
+  }
+  
+  
+  .navbar-default .navbar-nav>li>a {
+    width: 200px;
+    font-weight: bold;
+  }
+  .mega-dropdown {
+    position: static !important;
+    width: 100%; ;
+  }
+  
+  .mega-dropdown-menu {
+    /*padding: 0px 0px;
+    width: 25%;
+    height: 600%; */
+    box-shadow: none;
+    -webkit-box-shadow: none; 
+    
+  }
+  
+  .mega-dropdown-menu:before {
+    content: "";
+    border-bottom: 15px solid #fff;
+    border-right: 15px solid transparent;
+    border-left: 15px solid transparent;
+    position: absolute;
+    /*White triangle above the dropdown container when clicked on collections*/
+    top: -15px; 
+    left: 30px;
+    z-index:20;
+  }
+  
+  .mega-dropdown-menu:after {
+    content: "";
+    border-bottom: 17px solid #ccc;
+    border-right: 19px solid transparent;
+    border-left: 19px solid transparent;
+    position: absolute;
+    /*Grey triangle above the dropdown container when clicked on collections*/
+    top: -17px;
+    left: 30px;
+    z-index: 15;
+  }
+  
+  .mega-dropdown-menu > li > ul {
+   /* padding: 2;
+    margin: 0;   */ 
+  }
+  
+  .mega-dropdown-menu > li > ul > li {
+    list-style: none;
+  }
+  
+  .mega-dropdown-menu > li > ul > li > a {
+    display: block;
+   /* padding: 3px 0px;*/
+    clear: both;
+    font-weight: normal;
+    line-height: 1.428571429;
+    color: #999;
+    white-space: normal;
+    color: tomato; /*color before hover*/
+  }
+  
+  .mega-dropdown-menu > li ul > li > a:hover,
+  .mega-dropdown-menu > li ul > li > a:focus {
+    text-decoration: none;
+    color: #444; /*color before hover*/
+    background-color: #f5f5f5;
+  }
+  
+  .mega-dropdown-menu .dropdown-header {
+    color: #428bca;
+    font-size: 18px;
+    font-weight: bold;
+    /*margin-left:-25%;*/
+    padding: 0 0;
+  }
+  
+  .mega-dropdown-menu form {
+    /*margin: 3px 20px;*/
+  }
+  
+  .mega-dropdown-menu .form-group {
+    margin-bottom: 3px;
+  }
+  
+  .dropdown-header {font-family:'Snowburst One',cursive; 
+                    font-weight: bolder; 
+                    font-size: 14px;
+  }
+  /************* MULTI-LEVEL MEGA MENU - End ***************/
+  
+  
+  
+  /********** Login CSS - Welcome Message - Start ************/
+  
+  .contentHomePage{
+    width: 120%;
+    margin: 0px auto;
+    padding: 1% 0px 0px 10px;
+    color: white;
+    border-radius: 0px 0px 10px 10px;
+    font-size: 18px;
+    line-height: 8px;
+    margin-left:220%;
+  }
+  
+  /*login message - welcome*/
+  .loginWelcome{
+    width: 45%;
+    margin-right:10px;
+    border: 0px solid #b0c4de; /*#b0c4de*/
+    background: b0c4de;/*#F8F8F8;*/
+    border-radius: 25px;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 0px;
+    z-index: 99;
+    position: relative;
+  }
+  
+  .loginWelcome_2{
+    width: 70%;
+    color:white;
+    padding: 0px;
+    z-index: 20;
+    position: relative;
+    margin: 0 auto;
+  }
+  
+  #carauselPara {
+    position: absolute;
+    bottom: 85%;
+    left: 31%;
+    top:9%;
+    z-index: 20;
+    color: blue;
+    text-shadow: 0 1px 2px rgba(0,0,0,.6);
+    font-size: 15px;
+  }
+  
+  /*align the message to the center of welcome div*/
+  .welcometext{
+    text-align: center;
+  }
+  
+  /********** Login CSS - Welcome Message - End ************/
+  
+  
+  /************************************ Admin Brands Page START ***********************************************/
+ .brands-title {
+    font-family:'Snowburst One',cursive; 
+    font-weight: bolder; 
+    color:teal;
+    font-size: 28px;
+    text-align: center;
+    margin-top:1%;
+}
+
+.sub-title {
+  font-family:'Snowburst One',cursive; 
+  font-weight: bolder; 
+  color:blueviolet;
+  font-size: 24px;
+  text-align: center;
+  margin-top:1%;
+}
+
+#addDiv{
+  margin: 0 0 0 37%;
+}
+
+#labelfont{
+   /* font-family:'Snowburst One',cursive; 
+    font-weight: bolder; */
+    color:tomato;
+    font-size: 20px;
+   
+}
+
+  .tableSize{
+    width: auto;
+    margin: 0 auto; /*centers the div within the page*/
+  } 
+  /************************************ Admin Brands Page END* ****************************************************/
+
+
+  
+  /************************************ Admin Categories Page START ************************************************/
+  #legend_title{
+    font-family:'Snowburst One',cursive; 
+    font-weight: bolder; 
+    color:teal;
+    font-size: 28px;
+    margin-top:1%;
+  }
+  /************************************ Admin Categories Page END ************************************************/
+
+
+  /************************************ Admin Products Page START ************************************************/
+  .modal-title{
+    font-family:'Snowburst One',cursive; 
+    font-weight: bolder; 
+    color:teal;
+    font-size: 25px;
+  }
+
+  /*css for image when edit product is clicked*/
+  .saved-image img{
+    width:200px;height:auto; border:2px solid lightyellow;
+  }
+ /************************************ Admin Products Page END ************************************************/
+
+  /**************************************** CHANGE PASSWORD PAGE ********************************************************/
+  .header{
+    width: 23%;
+    /*margin: 50px auto 0px;*/
+    color: white;
+    background: #5f9ea0;
+    text-align: center;
+    border: 1px solid #B0C4DE;
+    border-bottom: none;
+    border-radius: 10px 10px 0px 0px;
+    padding: 20px;
+    font-size: 16px;
+    font-weight: bolder;
+    margin: 0 auto;
+    font-family:'Snowburst One',cursive; 
+    margin-top: 30px;
+}
+
+.form-content{
+  width: 23%;
+  margin: 0px auto;
+  padding: 20px;
+  border: 1px solid #b0c4de;
+  background: url("http://www.printawallpaper.com/upload/designs/white_and_grey_triangles_detail.jpg");
+  border-radius: 0px 0px 10px 10px;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+/*align the message to the center of welcome div*/ 
+.welcometext{
+  text-align: center;
+}
+
+.input-group{
+  margin: 10px 0px 10px 0px;
+}
+
+.input-group label {
+  display: block;
+  text-align: left;
+  font-weight: bold;
+  margin-left: 17px;
+}
+
+.input-group input {
+   height: 37px;
+   width: 90%;
+   padding: 5px 10px;
+   font-size: 12px;
+   border-radius: 5px;
+   border: 1px solid gray;
+   margin-left: 15px;
+}
+
+.btnchange{
+  padding: 7px;
+  font-size: 17px;
+  color: white;
+  background: #5f9ea0;
+  border: none;
+  border-radius: 5px;
+  margin-top: 30px;
+  margin-left: 37%;
+  width:150px;
+  margin:0 auto;  
+}
+
+.error {
+  width: 92%;
+  margin: 0px auto;
+  padding: 10px;
+  border: 1px solid #a94442;
+  color: #a94442;
+  background: #f2dede;
+  border-radius: 5px;
+  text-align: left;
+}
+
+.success {
+ color: #3c763d;
+ background: #dff0d8;
+ border: 1px solid #3c763d;
+ margin-bottom: 20px;
+}
+
+#registerMsg{
+  font-weight: bolder;
+  margin: 17px 0px 5px 22px;  /*top-right-bottom-left*/
+  font-family:'Snowburst One',cursive; 
+}
+
+/*logoCSS - logo with the link to go to the Landing Page*/
+#logoCSS{
+  font-family:'Snowburst One',cursive; 
+  font-size: 25px;
+  color:tomato;
+  text-decoration: none;
+  margin-left:10px;
+}
+
+
+/************************************  Users.php PAGE *****************************************************/
+#add_product_btn{
+  font-weight: normal;
+}
+
+/*Add form CSS*/
+.userAddFormCSS{
+  margin: 0 auto;
+}
+
+.userAddFormCSS label{
+    /* font-family:'Snowburst One',cursive; 
+    font-weight: bolder; */
+    color:tomato;
+    font-size: 20px;
+}
+
+
+/*******************   REPORTS IN INDEX PAGE ****************************/
